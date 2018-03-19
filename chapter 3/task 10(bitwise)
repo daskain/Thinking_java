@@ -1,0 +1,17 @@
+import java.init.*;
+
+class Bit_w {
+	public static void main (String[] args){
+		
+		
+		int a = 0x0fff;
+		int b = 0xfff0;
+		System.out.println("a in 0b = " + (Integer.toBinaryString(a)));
+		System.out.println("b in 0b = " + (Integer.toBinaryString(b)));
+		System.out.println("AND & " + (Integer.toBinaryString(a & b)));
+		System.out.println("OR | " + (Integer.toBinaryString(a | b)));
+		System.out.println("XOR ^ " + (Integer.toBinaryString(a ^ b)));
+		System.out.println("NOT a ~ " + (Integer.toBinaryString(~a)));
+		System.out.println("NOT b ~ " + (Integer.toBinaryString(~b)));
+    }
+}
