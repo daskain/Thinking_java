@@ -1,0 +1,8 @@
+lass Task13 {
+	public static void main (String[] args){
+		
+		char c = 'd';
+		int a = c;
+		System.out.println(Integer.toBinaryString(a));
+    }
+}
