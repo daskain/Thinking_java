@@ -1,0 +1,12 @@
+import java.init.*;
+
+class Task11 {
+	public static void main (String[] args){
+		
+		
+		int i = 0xff11001;
+		for(; i != 1; i >>= 1){
+		System.out.println(Integer.toBinaryString(i));
+		System.out.println(Math.signum(i));
+    }
+}
